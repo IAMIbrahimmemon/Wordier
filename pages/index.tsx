@@ -1,4 +1,6 @@
+import NavBar from "../components/NavBar";
+
 function HomePage() {
-  return <div>New home page</div>;
+  return <NavBar active="Normal" />;
 }
 export default HomePage;
